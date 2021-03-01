@@ -41,25 +41,25 @@ $this->registerJsFile('@web/js/popup.js', ['depends' => [AppAsset::class]]);
 <section class="section-how">
     <div class="container">
         <div class="head head--lineLeft">
-            <span>How It Works</span>
+            <span class="lazyClass">How It Works</span>
         </div>
         <div class="block">
             <div class="items">
-                <div class="item">
+                <div class="item lazyClass">
                     <div class="image">
                         <img src="./images/main-page/section-how/1.png" alt="img">
                     </div>
                     <p>Add your platform, verify your ownership and pass moderation</p>
                     <span>1</span>
                 </div>
-                <div class="item">
+                <div class="item lazyClass">
                     <div class="image">
                         <img src="./images/main-page/section-how/2.png" alt="img">
                     </div>
                     <p>Get tasks to do by getting offers from buyers</p>
                     <span>2</span>
                 </div>
-                <div class="item">
+                <div class="item lazyClass">
                     <div class="image">
                         <img src="./images/main-page/section-how/3.png" alt="img">
                     </div>
@@ -67,7 +67,7 @@ $this->registerJsFile('@web/js/popup.js', ['depends' => [AppAsset::class]]);
                         on your platforms</p>
                     <span>3</span>
                 </div>
-                <div class="item">
+                <div class="item lazyClass">
                     <div class="image">
                         <img src="./images/main-page/section-how/4.png" alt="img">
                     </div>
@@ -77,7 +77,7 @@ $this->registerJsFile('@web/js/popup.js', ['depends' => [AppAsset::class]]);
                 </div>
             </div>
             <div class="bottom">
-                <button class="start-earning">Start earning now</button>
+                <button class="start-earning lazyClass">Start earning now</button>
             </div>
         </div>
 
@@ -90,13 +90,13 @@ $this->registerJsFile('@web/js/popup.js', ['depends' => [AppAsset::class]]);
     <div class="circle3"></div>
     <div class="container">
         <div class="head head--lineRight">
-            <span>
+            <span class="lazyClass">
                 What You Get <br/>
                 Using Adsy
             </span>
         </div>
         <div class="block">
-            <div class="photo"></div>
+            <div class="photo lazyClass"></div>
             <div class="slider-wrap">
                 <div class="section-what__line section-what__line--left"></div>
                 <div class="section-what__line section-what__line--right"></div>
@@ -186,7 +186,7 @@ $this->registerJsFile('@web/js/popup.js', ['depends' => [AppAsset::class]]);
                     </div>
                 </div>
                 <div class="bottom">
-                    <button class="start-earning">Start earning now</button>
+                    <button class="start-earning lazyClass">Start earning now</button>
                 </div>
             </div>
 
@@ -194,7 +194,6 @@ $this->registerJsFile('@web/js/popup.js', ['depends' => [AppAsset::class]]);
 
     </div>
 </section>
-
 
 <div class="popup-wg">
     <div class="popup-wg__block">

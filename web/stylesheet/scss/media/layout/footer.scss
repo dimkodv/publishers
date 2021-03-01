@@ -26,6 +26,7 @@
                 max-width: 114px;
                 margin-left: auto;
                 margin-right: auto;
+                text-align: center;
             }
             &__menu {
 
@@ -103,6 +104,9 @@
             }
             &__logo {
                 margin-top: 35px;
+                img {
+                    max-width: 90px;
+                }
             }
             &__menu {
                 padding-left: 0;
