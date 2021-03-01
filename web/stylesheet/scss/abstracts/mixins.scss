@@ -1,0 +1,49 @@
+@mixin itemAfter($pos: absolute, $content: '') {
+    content: $content;
+    position: $pos;
+}
+@mixin clearBoth {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder { @content; }
+    &:-moz-placeholder           { @content; }
+    &::-moz-placeholder          { @content; }
+    &:-ms-input-placeholder      { @content; }
+}
+
+// text-align center for inline-blocks
+@mixin text-justify() {
+    text-align: justify;
+    text-justify: distribute;
+
+    &:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+// clear both
+@mixin clear-both($after: true) {
+
+    @if $after {
+        &:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+    } @else {
+        &:before {
+            content: '';
+            display: table;
+            clear: both;
+        }
+    }
+
+}

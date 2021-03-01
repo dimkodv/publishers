@@ -1,0 +1,23 @@
+{
+  "name": "publishers",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^3.2.1"
+  },
+  "dependencies": {
+    "gulp-install": "^1.1.0",
+    "npm": "^7.0.12"
+  },
+  "description": ""
+}

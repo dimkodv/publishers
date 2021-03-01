@@ -1,0 +1,135 @@
+
+@media screen and (max-width:1600px) {
+
+    .container {
+        margin: 0 20px;
+    }
+
+}
+@media screen and (max-width:1400px) {
+
+    .head {
+
+        span {
+            font-size: 65px;
+            &:before {
+            }
+        }
+        &--lineLeft span:before {
+        }
+        &--lineRight {
+            span {
+
+                &:before {
+
+                }
+            }
+        }
+
+    }
+
+}
+@media screen and (max-width:1279px) {
+
+    .wrapper-main {
+        max-width: 708px;
+    }
+
+    .head {
+
+        span {
+            font-size: 55px;
+            &:before {
+            }
+        }
+        &--lineLeft span:before {
+        }
+        &--lineRight {
+            span {
+
+                &:before {
+
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .head {
+
+        span {
+            font-size: 32px;
+            &:before {
+            }
+        }
+        &--lineLeft span:before {
+        }
+        &--lineRight {
+            span {
+
+                &:before {
+
+                }
+            }
+        }
+
+    }
+    .wrapper-main {
+        max-width: calc(100% - 40px);
+    }
+
+    .popup-wg {
+
+        &.open {
+
+        }
+
+        &__block {
+            min-width: 100%;
+            min-height: 100%;
+            max-width: 100%;
+            padding: 35px 20px;
+            max-height: 100%;
+            overflow-y: auto;
+            p {
+                font-size: 16px;
+                margin-top: 25px;
+            }
+            .title {
+                font-size: 25px;
+            }
+            .popup-text {
+                padding-top: 25px;
+            }
+            .popup-text__seo {
+                display: block;
+                width: 100%;
+                font-size: 20px;
+                border: none;
+            }
+            .popup-text__form {
+                max-width: 100%;
+                padding-left: 0;
+                margin-top: 20px;
+                text-align: center;
+                display: block;
+                button {
+                    padding: 6px 10px;
+                    font-size: 20px;
+                }
+            }
+
+        }
+        &__close {
+
+            &:hover {
+
+            }
+        }
+    }
+
+}
